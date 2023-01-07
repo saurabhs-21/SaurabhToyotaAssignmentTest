@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-08T02:40:28 IST" name="ALfuttaimAssignment Test Suite" finished-at="2023-01-08T02:43:48 IST" duration-ms="200342">
+    <groups>
+    </groups>
+    <test started-at="2023-01-08T02:40:28 IST" name="ALfuttaim Test Cases" finished-at="2023-01-08T02:43:48 IST" duration-ms="200342">
+      <class name="com.alfuttaim.qa.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.alfuttaim.qa.testcases.LoginPageTest@7ec7ffd3]" started-at="2023-01-08T02:40:28 IST" name="setup" finished-at="2023-01-08T02:40:58 IST" duration-ms="30351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="homePageTitleTest()[pri:1, instance:com.alfuttaim.qa.testcases.LoginPageTest@7ec7ffd3]" started-at="2023-01-08T02:40:58 IST" name="homePageTitleTest" finished-at="2023-01-08T02:40:58 IST" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitleTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.alfuttaim.qa.testcases.LoginPageTest@7ec7ffd3]" started-at="2023-01-08T02:40:58 IST" name="setup" finished-at="2023-01-08T02:41:27 IST" duration-ms="28467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ValidateAddToCartProd()[pri:2, instance:com.alfuttaim.qa.testcases.LoginPageTest@7ec7ffd3]" started-at="2023-01-08T02:41:27 IST" name="ValidateAddToCartProd" finished-at="2023-01-08T02:41:51 IST" duration-ms="23862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateAddToCartProd -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.alfuttaim.qa.testcases.LoginPageTest@7ec7ffd3]" started-at="2023-01-08T02:41:51 IST" name="setup" finished-at="2023-01-08T02:42:15 IST" duration-ms="24738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TyCarTest()[pri:3, instance:com.alfuttaim.qa.testcases.LoginPageTest@7ec7ffd3]" started-at="2023-01-08T02:42:15 IST" name="TyCarTest" finished-at="2023-01-08T02:43:48 IST" duration-ms="92747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TyCarTest -->
+      </class> <!-- com.alfuttaim.qa.testcases.LoginPageTest -->
+    </test> <!-- ALfuttaim Test Cases -->
+  </suite> <!-- ALfuttaimAssignment Test Suite -->
+</testng-results>
