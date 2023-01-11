@@ -8,26 +8,26 @@ import org.testng.ITestResult;
 
 import com.alfuttaim.qa.base.TestBase;
 
-public class CustomListner extends TestBase implements ITestListener{
-	
+public class CustomListener extends TestBase implements ITestListener {
 
 	@Override
 	public void onStart(ITestContext context) {
 		// TODO Auto-generated method stub
-		//ITestListener.super.onStart(context);
+		// ITestListener.super.onStart(context);
 	}
-	
+
 	@Override
 	public void onTestSuccess(ITestResult result) {
 		// TODO Auto-generated method stub
-		//ITestListener.super.onTestSuccess(result);
+		// ITestListener.super.onTestSuccess(result);
 	}
+
 	@Override
 	public void onTestFailure(ITestResult result) {
 		// TODO Auto-generated method stub
-		
-		//ITestListener.super.onTestFailure(result);
-		
+
+		// ITestListener.super.onTestFailure(result);
+
 		System.out.println("Failed test");
 		try {
 			captureScreen(result.getMethod().getMethodName());
@@ -36,13 +36,12 @@ public class CustomListner extends TestBase implements ITestListener{
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
+
 	}
+
 	@Override
 	public void onTestSkipped(ITestResult result) {
 		// TODO Auto-generated method stub
-		//ITestListener.super.onTestSkipped(result);
+		// ITestListener.super.onTestSkipped(result);
 	}
-	}
-	
-
+}

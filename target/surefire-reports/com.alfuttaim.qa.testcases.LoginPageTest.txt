@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.alfuttaim.qa.testcases.LoginPageTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 1, Errors: 0, Skipped: 8, Time elapsed: 40.423 s <<< FAILURE! - in com.alfuttaim.qa.testcases.LoginPageTest
+setup(com.alfuttaim.qa.testcases.LoginPageTest)  Time elapsed: 39.894 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 28.106
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bd57c08eedb63d0f9260d2aa6746060a, get {url=https://www.toyota.ae/en/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Saurabh\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49675}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49675/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bd57c08eedb63d0f9260d2aa6746060a
+	at com.alfuttaim.qa.testcases.LoginPageTest.setup(LoginPageTest.java:40)
+

@@ -1,0 +1,4 @@
+com\alfuttaim\qa\pages\LoginPage.class
+com\alfuttaim\qa\util\TestUtil.class
+com\qa\ExtentReportListener\ExtentReporterNG.class
+com\alfuttaim\qa\base\TestBase.class

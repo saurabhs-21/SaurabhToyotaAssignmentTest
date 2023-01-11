@@ -9,6 +9,7 @@
     <classes>
       <class name="com.alfuttaim.qa.testcases.LoginPageTest">
         <methods>
+          <include name="teardown"/>
           <include name="TyCarTest"/>
           <include name="setup"/>
         </methods>

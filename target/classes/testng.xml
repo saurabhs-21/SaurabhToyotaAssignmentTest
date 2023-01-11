@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="ALfuttaimAssignment Test Suite">
-
-	
-<listeners>
+	<listeners>
 		<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
 	</listeners>
-
-
 	<test name="ALfuttaim Test Cases">
 		<parameter name="browser" value="chrome" />
 		<classes>
-
-			
-			<class name="com.alfuttaim.qa.testcases.LoginPageTest"/> 
-			
-
+			<class name="com.alfuttaim.qa.testcases.LoginPageTest" />
 		</classes>
 	</test>
 </suite>
