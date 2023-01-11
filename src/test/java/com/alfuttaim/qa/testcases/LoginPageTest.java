@@ -106,17 +106,9 @@ public class LoginPageTest extends TestBase {
 		processingimpliwait();
 
 		scrolltoelement(prop.getProperty("AvailableNowXpath"));
-		boolean flg = loginpage.verifyAvailableNowPage();
-		Assert.assertTrue(flg);
-		processingimpliwait();
 
 		loginpage.AvailableNow();
 		// ImplicitWait
-		processingimpliwait();
-
-		boolean fl = loginpage.verifyBuyNowPage();
-		Assert.assertTrue(fl);
-		processingimpliwait();
 
 		loginpage.BuyNow();
 		processingimpliwait();

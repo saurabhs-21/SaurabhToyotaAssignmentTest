@@ -16,38 +16,34 @@ public class LoginPage extends TestBase {
 
 	@FindBy(xpath = "//a[@class='nav-link navbar-toggle']")
 	WebElement clkmodelLink;
-	
+
 	@FindBy(xpath = "//div[@id=\"new\"]/div/div/div/div[3]/div/div/div[1]/div/div/div/div[1]/div[1]/a/img")
 	WebElement ValidateBuyProdImg;
-	
+
 	@FindBy(xpath = "//div[@id=\"new\"]/div/div/div/div[3]/div/div/div[1]/div/div/div/div[1]/div[2]/div[1]/a/div/p")
 	WebElement clkBuyOnline;
-	
+
 	@FindBy(xpath = "//div[@id=\"__next\"]/div/div[2]/div[1]/div/div[2]/div/div[1]/a/div")
 	WebElement VerifyConfigPage;
-	
+
 	@FindBy(xpath = "//span[text()='Configure & Buy']")
 	WebElement clkConfigAndBuy;
 
-	
 	@FindBy(xpath = "//div[@id=\"__next\"]/div/div[2]/div/div[2]/div/div[1]/div/div[2]/div/div/img")
 	WebElement verifyChoosePage;
 
-	
-	
 	@FindBy(xpath = "//div[@id=\"TrimCarListId\"]/div/div/div/div/div[1]/div[5]/div/button/span")
 	WebElement clkChoose;
 
 	@FindBy(xpath = "//span[text()='Available now']")
 	WebElement VerifyAvailableNow;
-	
+
 	@FindBy(xpath = "//span[text()='Available now']")
 	WebElement clkAvailableNow;
-	
-	
+
 	@FindBy(xpath = "//span[text()='Buy now']")
 	WebElement VerifyBuyNow;
-	
+
 	@FindBy(xpath = "//span[text()='Buy now']")
 	WebElement clkBuyNow;
 
@@ -60,12 +56,9 @@ public class LoginPage extends TestBase {
 	@FindBy(xpath = "//div[@id=\"BagRecentView\"]/div/div/div/div/a/div/p")
 	WebElement TitleOfAddedProduct;
 
-
 	@FindBy(xpath = "//div[@id=\"accordion\"]/div/div/div/div[1]/div/div/div[2]/div/div/div[1]/div[2]/img")
 	WebElement VerifyMakeYourChoice;
-	
-	
-	
+
 	@FindBy(xpath = "//div[@id=\"accordion\"]/div/div/div/div[1]/div/div/div[2]/div/div/div[3]/div/button/span")
 	WebElement MakeYourChoicebtn;
 
@@ -74,11 +67,10 @@ public class LoginPage extends TestBase {
 
 	@FindBy(xpath = "//select[@name='retailer']")
 	WebElement selShowroom;
-	
-	
+
 	@FindBy(xpath = "//*[@id=\"accordion\"]/div/div/div/div/div/div/div[1]/div[1]/form/div/div[3]/input")
 	WebElement VerifyConfirmPage;
-	
+
 	@FindBy(xpath = "//input[@value='Confirm']")
 	WebElement confirmBtn;
 
@@ -87,12 +79,12 @@ public class LoginPage extends TestBase {
 
 	@FindBy(xpath = "//*[@id=\"accordion\"]/div/div/div/div/div/div/div[1]/div[1]/form/div/div[3]/input")
 	WebElement VerifyPayDepositPage;
-	
+
 	// span[text()='Pay deposit']
 
 	@FindBy(xpath = "//div[@id=\"accordion\"]/div/div/div/div/div[2]/div[2]/div/div[7]/div/button/span")
 	WebElement clkPayDeposit;
-	
+
 	@FindBy(xpath = "//div[@id=\"accordion\"]/div/div/div/div/div/div[1]/form/div/div[1]/div/div/button[1]")
 	WebElement VerifyRegisterNowPage;
 
@@ -127,8 +119,7 @@ public class LoginPage extends TestBase {
 
 	@FindBy(xpath = "//button[@id=\"continue\"]")
 	WebElement btnSignUp;
-	
-	
+
 	// initializing the page objects
 	public LoginPage() {
 		PageFactory.initElements(driver, this);
@@ -146,33 +137,39 @@ public class LoginPage extends TestBase {
 	public void modelLnk() {
 		clkmodelLink.click();
 	}
-	
+
 	public boolean validateBuyProdImg() {
 		return ValidateBuyProdImg.isDisplayed();
 	}
-	
+
 	public void BuyOnline() {
 		clkBuyOnline.click();
 	}
+
 	public boolean verifyConfigBuyPage() {
 		return VerifyConfigPage.isDisplayed();
 	}
+
 	public void ConfigurationAndBuy() {
 		clkConfigAndBuy.click();
 	}
+
 	public boolean verifyChoosePage() {
 		return verifyChoosePage.isDisplayed();
 	}
-	
+
 	public void Choose() {
 		clkChoose.click();
 	}
+
 	public boolean verifyAvailableNowPage() {
 		return VerifyAvailableNow.isDisplayed();
 	}
+
 	public void AvailableNow() {
 		clkAvailableNow.click();
 	}
+
 	public boolean verifyBuyNowPage() {
 		return VerifyBuyNow.isDisplayed();
 	}
@@ -198,7 +195,7 @@ public class LoginPage extends TestBase {
 	public boolean verifyMakeYourChoicePage() {
 		return VerifyMakeYourChoice.isDisplayed();
 	}
-	
+
 	public void MakeYourChoice() {
 		MakeYourChoicebtn.click();
 	}
@@ -212,7 +209,7 @@ public class LoginPage extends TestBase {
 		Select showroomid = new Select(selShowroom);
 		showroomid.selectByVisibleText(showroom);
 	}
-	
+
 	public boolean validateConfirmPage() {
 		return VerifyConfirmPage.isDisplayed();
 	}
@@ -228,7 +225,7 @@ public class LoginPage extends TestBase {
 	public boolean validatePayDepositPage() {
 		return VerifyPayDepositPage.isDisplayed();
 	}
-	
+
 	public void PayDeposit() {
 		clkPayDeposit.click();
 	}
@@ -236,7 +233,7 @@ public class LoginPage extends TestBase {
 	public boolean validateRegisterNowPage() {
 		return VerifyRegisterNowPage.isDisplayed();
 	}
-	
+
 	public void RegisterNow() {
 		RegisterNowbtn.click();
 	}

@@ -5,7 +5,9 @@
     <classes>
       <class name="com.alfuttaim.qa.testcases.LoginPageTest">
         <methods>
+          <include name="ValidateAddToCartProd"/>
           <include name="teardown"/>
+          <include name="homePageTitleTest"/>
           <include name="TyCarTest"/>
           <include name="setup"/>
         </methods>
